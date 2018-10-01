@@ -26,6 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString * str = @"第二次";
+    
     // Do any additional setup after loading the view.
 }
 
