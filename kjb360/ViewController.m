@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString * str = @"第一次测试";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
