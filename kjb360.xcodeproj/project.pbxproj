@@ -19,6 +19,7 @@
 		002856B71E9CC42D00E5A9C0 /* StudentManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B61E9CC42D00E5A9C0 /* StudentManageViewController.m */; };
 		002856BB1E9CC43B00E5A9C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B91E9CC43B00E5A9C0 /* MainViewController.m */; };
 		002856BC1E9CC43B00E5A9C0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002856BA1E9CC43B00E5A9C0 /* MainViewController.xib */; };
+		00A41D952161BCEA0029D756 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A41D942161BCEA0029D756 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		002856B91E9CC43B00E5A9C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		002856BA1E9CC43B00E5A9C0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		00643C881EB1736A00542753 /* NetMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetMacro.h; sourceTree = "<group>"; };
+		00A41D932161BCEA0029D756 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		00A41D942161BCEA0029D756 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 			children = (
 				002856AF1E9CC40300E5A9C0 /* DredgeAccountViewController.h */,
 				002856B01E9CC40300E5A9C0 /* DredgeAccountViewController.m */,
+				00A41D932161BCEA0029D756 /* test.h */,
+				00A41D942161BCEA0029D756 /* test.m */,
 			);
 			name = DredgeAccountViewController;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				002856B71E9CC42D00E5A9C0 /* StudentManageViewController.m in Sources */,
 				002856BB1E9CC43B00E5A9C0 /* MainViewController.m in Sources */,
 				002856981E9CC19B00E5A9C0 /* ViewController.m in Sources */,
+				00A41D952161BCEA0029D756 /* test.m in Sources */,
 				002856951E9CC19B00E5A9C0 /* AppDelegate.m in Sources */,
 				002856921E9CC19B00E5A9C0 /* main.m in Sources */,
 				002856B11E9CC40300E5A9C0 /* DredgeAccountViewController.m in Sources */,
