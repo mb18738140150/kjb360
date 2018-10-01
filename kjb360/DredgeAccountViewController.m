@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[UILabel alloc]init];
+    NSString * str = @"disanci";
     // Do any additional setup after loading the view.
 }
 
