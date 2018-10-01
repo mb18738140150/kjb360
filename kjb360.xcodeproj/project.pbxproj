@@ -13,6 +13,12 @@
 		0028569B1E9CC19B00E5A9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002856991E9CC19B00E5A9C0 /* Main.storyboard */; };
 		0028569D1E9CC19B00E5A9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0028569C1E9CC19B00E5A9C0 /* Assets.xcassets */; };
 		002856A01E9CC19B00E5A9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0028569E1E9CC19B00E5A9C0 /* LaunchScreen.storyboard */; };
+		002856A91E9CC32500E5A9C0 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856A81E9CC32500E5A9C0 /* TabbarViewController.m */; };
+		002856B11E9CC40300E5A9C0 /* DredgeAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B01E9CC40300E5A9C0 /* DredgeAccountViewController.m */; };
+		002856B41E9CC41400E5A9C0 /* OrdermanageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B31E9CC41400E5A9C0 /* OrdermanageViewController.m */; };
+		002856B71E9CC42D00E5A9C0 /* StudentManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B61E9CC42D00E5A9C0 /* StudentManageViewController.m */; };
+		002856BB1E9CC43B00E5A9C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002856B91E9CC43B00E5A9C0 /* MainViewController.m */; };
+		002856BC1E9CC43B00E5A9C0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002856BA1E9CC43B00E5A9C0 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		0028569C1E9CC19B00E5A9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0028569F1E9CC19B00E5A9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002856A11E9CC19B00E5A9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002856A71E9CC32500E5A9C0 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		002856A81E9CC32500E5A9C0 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		002856AF1E9CC40300E5A9C0 /* DredgeAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DredgeAccountViewController.h; sourceTree = "<group>"; };
+		002856B01E9CC40300E5A9C0 /* DredgeAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DredgeAccountViewController.m; sourceTree = "<group>"; };
+		002856B21E9CC41400E5A9C0 /* OrdermanageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdermanageViewController.h; sourceTree = "<group>"; };
+		002856B31E9CC41400E5A9C0 /* OrdermanageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdermanageViewController.m; sourceTree = "<group>"; };
+		002856B51E9CC42D00E5A9C0 /* StudentManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentManageViewController.h; sourceTree = "<group>"; };
+		002856B61E9CC42D00E5A9C0 /* StudentManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentManageViewController.m; sourceTree = "<group>"; };
+		002856B81E9CC43B00E5A9C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		002856B91E9CC43B00E5A9C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		002856BA1E9CC43B00E5A9C0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		00643C881EB1736A00542753 /* NetMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,10 @@
 				002856941E9CC19B00E5A9C0 /* AppDelegate.m */,
 				002856961E9CC19B00E5A9C0 /* ViewController.h */,
 				002856971E9CC19B00E5A9C0 /* ViewController.m */,
+				002856A71E9CC32500E5A9C0 /* TabbarViewController.h */,
+				002856A81E9CC32500E5A9C0 /* TabbarViewController.m */,
+				00643C881EB1736A00542753 /* NetMacro.h */,
+				002856AA1E9CC33900E5A9C0 /* ViewControllers */,
 				002856991E9CC19B00E5A9C0 /* Main.storyboard */,
 				0028569C1E9CC19B00E5A9C0 /* Assets.xcassets */,
 				0028569E1E9CC19B00E5A9C0 /* LaunchScreen.storyboard */,
@@ -77,6 +99,54 @@
 				002856911E9CC19B00E5A9C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002856AA1E9CC33900E5A9C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				002856AE1E9CC35200E5A9C0 /* DredgeAccountViewController */,
+				002856AD1E9CC34F00E5A9C0 /* OrderManageViewController */,
+				002856AC1E9CC34E00E5A9C0 /* StudentsManageViewController */,
+				002856AB1E9CC34B00E5A9C0 /* MainViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		002856AB1E9CC34B00E5A9C0 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				002856B81E9CC43B00E5A9C0 /* MainViewController.h */,
+				002856B91E9CC43B00E5A9C0 /* MainViewController.m */,
+				002856BA1E9CC43B00E5A9C0 /* MainViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		002856AC1E9CC34E00E5A9C0 /* StudentsManageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				002856B51E9CC42D00E5A9C0 /* StudentManageViewController.h */,
+				002856B61E9CC42D00E5A9C0 /* StudentManageViewController.m */,
+			);
+			name = StudentsManageViewController;
+			sourceTree = "<group>";
+		};
+		002856AD1E9CC34F00E5A9C0 /* OrderManageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				002856B21E9CC41400E5A9C0 /* OrdermanageViewController.h */,
+				002856B31E9CC41400E5A9C0 /* OrdermanageViewController.m */,
+			);
+			name = OrderManageViewController;
+			sourceTree = "<group>";
+		};
+		002856AE1E9CC35200E5A9C0 /* DredgeAccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				002856AF1E9CC40300E5A9C0 /* DredgeAccountViewController.h */,
+				002856B01E9CC40300E5A9C0 /* DredgeAccountViewController.m */,
+			);
+			name = DredgeAccountViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +180,7 @@
 				TargetAttributes = {
 					0028568C1E9CC19B00E5A9C0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZ59BF8BB7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +211,7 @@
 				002856A01E9CC19B00E5A9C0 /* LaunchScreen.storyboard in Resources */,
 				0028569D1E9CC19B00E5A9C0 /* Assets.xcassets in Resources */,
 				0028569B1E9CC19B00E5A9C0 /* Main.storyboard in Resources */,
+				002856BC1E9CC43B00E5A9C0 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002856B41E9CC41400E5A9C0 /* OrdermanageViewController.m in Sources */,
+				002856A91E9CC32500E5A9C0 /* TabbarViewController.m in Sources */,
+				002856B71E9CC42D00E5A9C0 /* StudentManageViewController.m in Sources */,
+				002856BB1E9CC43B00E5A9C0 /* MainViewController.m in Sources */,
 				002856981E9CC19B00E5A9C0 /* ViewController.m in Sources */,
 				002856951E9CC19B00E5A9C0 /* AppDelegate.m in Sources */,
 				002856921E9CC19B00E5A9C0 /* main.m in Sources */,
+				002856B11E9CC40300E5A9C0 /* DredgeAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UZ59BF8BB7;
 				INFOPLIST_FILE = kjb360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytx.kjb360;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcb.kjb360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,9 +362,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UZ59BF8BB7;
 				INFOPLIST_FILE = kjb360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytx.kjb360;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcb.kjb360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -309,6 +390,7 @@
 				002856A61E9CC19B00E5A9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
