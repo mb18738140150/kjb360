@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[UILabel alloc]init];
     // Do any additional setup after loading the view.
 }
 
